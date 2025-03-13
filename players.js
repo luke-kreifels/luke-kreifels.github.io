@@ -39,10 +39,20 @@ function renderPlayers(filteredPlayers) {
     filteredPlayers.forEach(player => {
         const li = document.createElement('li');
         li.classList.add('player');
-        li.textContent = `${player.firstName} ${player.lastName} (${player.years.join(', ')}) - Position(s): ${player.positions.join(', ')}`;
+        
+        // Create the <a> element
+        const a = document.createElement('a');
+        a.href = `page_not_made.html`;
+        a.textContent = `${player.firstName} ${player.lastName} testing(${player.years.join(', ')}) - Position(s): ${player.positions.join(', ')}`;
+
+        // Append the <a> element to the <li>
+        li.appendChild(a);
+        
+        // Append the <li> element to the players list
         playersList.appendChild(li);
     });
 }
+
 
 // Function to filter players based on search input, selected year range, and position
 function filterPlayers() {

@@ -34,7 +34,10 @@ function populateYearOptions() {
 // Render players based on the current filter and sort settings
 function renderPlayers(filteredPlayers) {
     const playersList = document.getElementById('playersList');
+    const playerCount = document.getElementById('playerCount');
     playersList.innerHTML = ''; // Clear previous player list
+
+    playerCount.textContent = `Players Listed: ${filteredPlayers.length}`;
 
     filteredPlayers.forEach(player => {
         const li = document.createElement('li');

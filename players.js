@@ -45,7 +45,7 @@ function renderPlayers(filteredPlayers) {
         
         // Create the <a> element
         const a = document.createElement('a');
-        a.href = `page_not_made.html`;
+        a.href = player.page ? player.page : 'page_not_made.html';
         a.textContent = `${player.firstName} ${player.lastName} (${player.years.join(', ')}) - Position(s): ${player.positions.join(', ')}`;
 
         // Append the <a> element to the <li>

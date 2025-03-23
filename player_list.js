@@ -1,7 +1,7 @@
 // Array to hold all players
 const player_array = [
     //A
-    { firstName: "Paul", lastName: "Abbott", positions: ["SP"], years: [2003] },
+    { firstName: "Paul", lastName: "Abbott", positions: ["SP"], years: [2003], page: "Player-Pages/A/Abbott-Paul" },
     { firstName: "Brent", lastName: "Abernathy", positions: ["2B"], years: [2003] },
     { firstName: "Ted", lastName: "Abernathy", positions: ["RP"], years: [1970, 1971, 1972] },
     { firstName: "Albert", lastName: "Abreu", positions: ["RP"], years: [2022] },

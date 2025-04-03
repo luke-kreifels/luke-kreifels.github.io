@@ -15,11 +15,11 @@ const player_array = [
     { firstName: "Willie", lastName: "Aikens", positions: ["1B"], years: [1980, 1981, 1982, 1983], page: "/Player-Pages/A/Aikens-Willie.html" },
     { firstName: "Hanser", lastName: "Alberto", positions: ["2B"], years: [2021], page: "/Player-Pages/A/Alberto-Hanser.html" },
     { firstName: "Al", lastName: "Alburquerque", positions: ["RP"], years: [2017], page: "/Player-Pages/A/Alburquerque-Al.html" },
-    { firstName: "Luis", lastName: "Alcaraz", positions: ["2B"], years: [1969, 1970] },
-    { firstName: "CJ", lastName: "Alexander", positions: ["3B"], years: [2024] },
-    { firstName: "Scott", lastName: "Alexander", positions: ["RP"], years: [2015, 2016, 2017] },
-    { firstName: "Luis", lastName: "Alicea", positions: ["2B", "DH"], years: [2001, 2002] },
-    { firstName: "Jermaine", lastName: "Allensworth", positions: ["CF"], years: [1998] },
+    { firstName: "Luis", lastName: "Alcaraz", positions: ["2B"], years: [1969, 1970], page: "/Player-Pages/A/Alcaraz-Luis.html" },
+    { firstName: "CJ", lastName: "Alexander", positions: ["3B"], years: [2024], page: "/Player-Pages/A/Alexander-CJ.html"  },
+    { firstName: "Scott", lastName: "Alexander", positions: ["RP"], years: [2015, 2016, 2017], page: "/Player-Pages/A/Alexander-Scott.html" },
+    { firstName: "Luis", lastName: "Alicea", positions: ["2B", "DH"], years: [2001, 2002], page: "/Player-Pages/A/Alicea-Luis.html" }, //Need Bio
+    { firstName: "Jermaine", lastName: "Allensworth", positions: ["CF"], years: [1998], page: "/Player-Pages/A/Allensworth-Jermaine.html" }, //Need Bio/new pic
     { firstName: "Abraham", lastName: "Almonte", positions: ["CF"], years: [2018] },
     { firstName: "Miguel", lastName: "Almonte", positions: ["RP"], years: [2015, 2017] },
     { firstName: "Dan", lastName: "Altavilla", positions: ["RP"], years: [2024] },

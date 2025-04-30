@@ -20,18 +20,18 @@ const player_array = [
     { firstName: "Scott", lastName: "Alexander", positions: ["RP"], years: [2015, 2016, 2017], page: "/Player-Pages/A/Alexander-Scott.html" },
     { firstName: "Luis", lastName: "Alicea", positions: ["2B", "DH"], years: [2001, 2002], page: "/Player-Pages/A/Alicea-Luis.html" }, //Need Bio
     { firstName: "Jermaine", lastName: "Allensworth", positions: ["CF"], years: [1998], page: "/Player-Pages/A/Allensworth-Jermaine.html" }, //Need Bio/new pic
-    { firstName: "Abraham", lastName: "Almonte", positions: ["CF"], years: [2018] },
-    { firstName: "Miguel", lastName: "Almonte", positions: ["RP"], years: [2015, 2017] },
-    { firstName: "Dan", lastName: "Altavilla", positions: ["RP"], years: [2024] },
-    { firstName: "Chip", lastName: "Ambres", positions: ["LF", "CF"], years: [2005] },
-    { firstName: "Brian", lastName: "Anderson", positions: ["SP"], years: [2003, 2004, 2005] },
-    { firstName: "Josh", lastName: "Anderson", positions: ["CF"], years: [2009] },
-    { firstName: "Nick", lastName: "Anderson", positions: ["RP"], years: [2024] }, 
-    { firstName: "Rick", lastName: "Anderson", positions: ["SP", "RP"], years: [1987, 1988] },
-    { firstName: "Scott", lastName: "Anderson", positions: ["SP"], years: [1995] },
-    { firstName: "Steve", lastName: "Andrade", positions: ["RP"], years: [2006] },
-    { firstName: "Norm", lastName: "Angelini", positions: ["RP"], years: [1972, 1973] },
-    { firstName: "Rick", lastName: "Ankiel", positions: ["CF"], years: [2010] },
+    { firstName: "Abraham", lastName: "Almonte", positions: ["CF"], years: [2018], page: "/Player-Pages/A/Almonte-Abraham.html" },  //Need Bio
+    { firstName: "Miguel", lastName: "Almonte", positions: ["RP"], years: [2015, 2017], page: "/Player-Pages/A/Almonte-Miguel.html" }, // Need Bio
+    { firstName: "Dan", lastName: "Altavilla", positions: ["RP"], years: [2024], page: "/Player-Pages/A/Altavilla-Dan.html"  }, // Need Bio
+    { firstName: "Chip", lastName: "Ambres", positions: ["LF", "CF"], years: [2005], page: "/Player-Pages/A/Ambres-Chip.html" }, // Need Bio
+    { firstName: "Brian", lastName: "Anderson", positions: ["SP"], years: [2003, 2004, 2005], page: "/Player-Pages/A/Anderson-Brian.html"  }, // Need Bio
+    { firstName: "Josh", lastName: "Anderson", positions: ["CF"], years: [2009], page: "/Player-Pages/A/Anderson-Josh.html"  }, //Need Bio
+    { firstName: "Nick", lastName: "Anderson", positions: ["RP"], years: [2024], page: "/Player-Pages/A/Anderson-Nick.html"  }, //Need Bio
+    { firstName: "Rick", lastName: "Anderson", positions: ["SP", "RP"], years: [1987, 1988], page: "/Player-Pages/A/Anderson-Rick.html" }, //Need Bio
+    { firstName: "Scott", lastName: "Anderson", positions: ["SP"], years: [1995], page: "/Player-Pages/A/Anderson-Scott.html" }, //Need Bio / new pic
+    { firstName: "Steve", lastName: "Andrade", positions: ["RP"], years: [2006], page: "/Player-Pages/A/Andrade-Steve.html" }, //Need Bio
+    { firstName: "Norm", lastName: "Angelini", positions: ["RP"], years: [1972, 1973], page: "/Player-Pages/A/Angelini-Norm.html" }, //Need Bio
+    { firstName: "Rick", lastName: "Ankiel", positions: ["CF"], years: [2010], page: "/Player-Pages/A/Ankiel-Rick.html"  }, //Need Bio
     { firstName: "Norichika", lastName: "Aoki", positions: ["RF"], years: [2014] },
     { firstName: "Kevin", lastName: "Appier", positions: ["SP"], years: [1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2003, 2004] },
     { firstName: "Luis", lastName: "Aquino", positions: ["SP", "RP"], years: [1988, 1989, 1990, 1991, 1992] },
@@ -225,7 +225,7 @@ const player_array = [
     { firstName: "Jose", lastName: "Cuas", positions: ["RP"], years: [2022, 2023] },
     { firstName: "Jerry", lastName: "Cram", positions: ["RP"], years: [1969, 1976] },
     { firstName: "Juan", lastName: "Cruz", positions: ["RP"], years: [2009, 2010] },
-    { firstName: "Steven", lastName: "Cruz", positions: ["RP"], years: [2023, 2024] },
+    { firstName: "Steven", lastName: "Cruz", positions: ["RP"], years: [2023, 2024, 2025] },
     { firstName: "Todd", lastName: "Cruz", positions: ["SS", "3B"], years: [1979] },
     { firstName: "Tony", lastName: "Cruz", positions: ["C"], years: [2016] },
     { firstName: "Johnny", lastName: "Cueto", positions: ["SP"], years: [2015] },
@@ -568,7 +568,7 @@ const player_array = [
     { firstName: "Jorge", lastName: "Lopez", positions: ["SP", "RP"], years: [2018, 2019, 2020] },
     { firstName: "Mendy", lastName: "Lopez", positions: ["SS", "2B"], years: [1998, 1999, 2003, 2004] },
     { firstName: "Nicky", lastName: "Lopez", positions: ["2B", "SS", "3B"], years: [2019, 2020, 2021, 2022, 2023] },
-    { firstName: "Michael", lastName: "Lorenzen", positions: ["SP"], years: [2024] },
+    { firstName: "Michael", lastName: "Lorenzen", positions: ["SP"], years: [2024, 2025] },
     { firstName: "David", lastName: "Lough", positions: ["RF"], years: [2012, 2013] },
     { firstName: "Richard", lastName: "Lovelady", positions: ["RP"], years: [2019, 2020, 2021] },
     { firstName: "Sean", lastName: "Lowe", positions: ["RP"], years: [2003] },
@@ -906,6 +906,7 @@ const player_array = [
     { firstName: "Wayne", lastName: "Simpson", positions: ["SP"], years: [1973] },
     { firstName: "Brady", lastName: "Singer", positions: ["SP"], years: [2020, 2021, 2022, 2023, 2024] },
     { firstName: "Andy", lastName: "Sisco", positions: ["RP"], years: [2005, 2006] },
+    { firstName: "Evan", lastName: "Sisk", positions: ["RP"], years: [2025] },
     { firstName: "Eric", lastName: "Skoglund", positions: ["SP"], years: [2017, 2018, 2019] },
     { firstName: "Don", lastName: "Slaught", positions: ["C"], years: [1982, 1983, 1984] },
     { firstName: "Burch", lastName: "Smith", positions: ["SP"], years: [2018] },
@@ -1013,7 +1014,7 @@ const player_array = [
     { firstName: "Les", lastName: "Walrond", positions: ["RP"], years: [2003] },
     { firstName: "Chien-Ming", lastName: "Wang", positions: ["RP"], years: [2016] },
     { firstName: "U.L.", lastName: "Washington", positions: ["SS"], years: [1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984] },
-    { firstName: "Drew", lastName: "Waters", positions: ["RF", "CF"], years: [2022, 2023, 2024] },
+    { firstName: "Drew", lastName: "Waters", positions: ["RF", "CF"], years: [2022, 2023, 2024, 2025] },
     { firstName: "Dusty", lastName: "Wathan", positions: ["C"], years: [2002] },
     { firstName: "John", lastName: "Wathan", positions: ["C", "1B"], years: [1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985]},
     { firstName: "Luke", lastName: "Weaver", positions: ["RP"], years: [2022] },

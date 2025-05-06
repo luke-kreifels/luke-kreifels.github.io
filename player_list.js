@@ -39,13 +39,13 @@ const player_array = [
     { firstName: "Humberto", lastName: "Arteaga", positions: ["SS"], years: [2019], page: "/Player-Pages/A/Arteaga-Humberto.html" }, //Need Bio
     { firstName: "Miguel", lastName: "Asencio", positions: ["SP"], years: [2002, 2003], page: "/Player-Pages/A/Asencio-Miguel.html" }, //Need Bio
     { firstName: "Tucker", lastName: "Ashford", positions: ["3B"], years: [1984], page: "/Player-Pages/A/Ashford-Tucker.html" }, //Need Bio / New Pic
-    { firstName: "Jeff", lastName: "Austin", positions: ["RP"], years: [2001, 2002] },
-    { firstName: "Mike", lastName: "Aviles", positions: ["SS"], years: [2008, 2009, 2010, 2011] },
+    { firstName: "Jeff", lastName: "Austin", positions: ["RP"], years: [2001, 2002], page: "/Player-Pages/A/Austin-Jeff.html" }, //Need Bio
+    { firstName: "Mike", lastName: "Aviles", positions: ["SS"], years: [2008, 2009, 2010, 2011], page: "/Player-Pages/A/Aviles-Mike.html" }, //Need Bio
 
     // B
-    { firstName: "Cory", lastName: "Bailey", positions: ["RP"], years: [2001, 2002] },
-    { firstName: "Homer", lastName: "Bailey", positions: ["SP"], years: [2019] },
-    { firstName: "Paul", lastName: "Bako", positions: ["C"], years: [2006] },
+    { firstName: "Cory", lastName: "Bailey", positions: ["RP"], years: [2001, 2002], page: "/Player-Pages/B/Bailey-Cory.html" }, //Need Bio
+    { firstName: "Homer", lastName: "Bailey", positions: ["SP"], years: [2019], page: "/Player-Pages/B/Bailey-Homer.html" }, //Need Bio
+    { firstName: "Paul", lastName: "Bako", positions: ["C"], years: [2006], page: "/Player-Pages/B/Bako-Paul.html" }, //Need Bio
     { firstName: "Steve", lastName: "Balboni", positions: ["1B", "DH"], years: [1984, 1985, 1986, 1987, 1988] },
     { firstName: "John", lastName: "Bale", positions: ["RP"], years: [2007, 2008, 2009] },
     { firstName: "Jay", lastName: "Baller", positions: ["RP"], years: [1990] },

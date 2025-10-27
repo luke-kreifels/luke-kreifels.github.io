@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kansas City Royals Managers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #E3F2FD;
+      color: #003B5C;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 25px;
+      background-color: #003B5C;
+      color: white;
+      position: relative;
+    }
+
+    header h1 {
+      margin: 0 auto;
+      font-size: 28px;
+      text-align: center;
+    }
+
+    .menu-icon {
+      font-size: 28px;
+      cursor: pointer;
+      color: white;
+      position: absolute;
+      right: 25px;
+    }
+
+    .menu {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 25px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      overflow: hidden;
+      z-index: 10;
+    }
+
+    .menu a {
+      display: block;
+      padding: 12px 18px;
+      text-decoration: none;
+      color: #003B5C;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .menu a:hover {
+      background-color: #BBDEFB;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+
+    .manager-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .manager-card {
+      background-color: #BBDEFB;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .manager-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    }
+
+    .manager-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      background-color: #e0e0e0;
+    }
+
+    .manager-card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .manager-card p {
+      margin: 3px 0;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 22px;
+      }
+      .manager-card img {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kansas City Royals Managers</h1>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <div class="menu" id="menu">
+      <a href="home-page.html">Players</a>
+      <a href="manager.html">Managers</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <h2>Every Manager in Royals History</h2>
+
+    <div class="manager-grid">
+        <div class="manager-card">
+            <img src="./Manager-Images/joe-gordon.jpeg" alt="Joe Gordon">
+            <h3>Joe Gordon</h3>
+            <p><strong>Years:</strong> 1969</p>
+            <p><strong>Record:</strong> 69-93 (.426)</p>
+            <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+            <img src="./Manager-Images/charlie-metro.jpeg" alt="Charlie Metro">
+            <h3>Charlie Metro</h3>
+            <p><strong>Years:</strong> 1970</p>
+            <p><strong>Record:</strong> 19-33 (.365)</p>
+            <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+            <img src="./Manager-Images/bob-lemon.jpg" alt="Bob Lemon">
+            <h3>Bob Lemon</h3>
+            <p><strong>Years:</strong> 1970-72</p>
+            <p><strong>Record:</strong> 207-218 (.487)</p>
+            <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+            <img src="./Manager-Images/jack-mckeon.jpg" alt="Jack McKeon">
+            <h3>Jack McKeon</h3>
+            <p><strong>Years:</strong> 1973-75</p>
+            <p><strong>Record:</strong> 215-205 (.512)</p>
+            <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+            <img src="./Manager-Images/whitey-herzog.jpeg" alt="Whitey Herzog">
+            <h3>Whitey Herzog</h3>
+            <p><strong>Years:</strong> 1975-79</p>
+            <p><strong>Record:</strong> 410-304 (.574)</p>
+            <p><strong>Playoffs:</strong> 1976, 1977, 1978</p>
+        </div>
+
+        <div class="manager-card">
+            <img src="./Manager-Images/jim-frey.jpeg" alt="Jim Frey">
+            <h3>Jim Frey</h3>
+            <p><strong>Years:</strong> 1980-81</p>
+            <p><strong>Record:</strong> 127-105 (.547)</p>
+            <p><strong>Playoffs:</strong> 1980(Won AL)</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/dick-howser.jpeg" alt="Dick Howser">
+        <h3>Dick Howser</h3>
+        <p><strong>Years:</strong> 1981-86</p>
+        <p><strong>Record:</strong> 404-365 (.525)</p>
+        <p><strong>Playoffs:</strong> 1984, 1985(Won WS)</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/mike-ferraro.jpeg" alt="Mike Ferraro">
+        <h3>Mike Ferraro</h3>
+        <p><strong>Years:</strong> 1986</p>
+        <p><strong>Record:</strong> 36-38 (.486)</p>
+        <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/billy-gardner.jpeg" alt="Billy Gardner">
+        <h3>Billy Gardner</h3>
+        <p><strong>Years:</strong> 1987</p>
+        <p><strong>Record:</strong> 62-64 (.492)</p>
+        <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/john-wathan.jpeg" alt="John Wathan">
+        <h3>John Wathan</h3>
+        <p><strong>Years:</strong> 1987-91</p>
+        <p><strong>Record:</strong> 287-270 (.515)</p>
+        <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/bob-schafer.jpeg" alt="Bob Boone">
+        <h3>Bob Schaefer</h3>
+        <p><strong>Years:</strong> 1991, 2005</p>
+        <p><strong>Record:</strong> 6-12 (.333)</p>
+        <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/hal-mcrae.jpeg" alt="Hal McRae">
+        <h3>Hal McRae</h3>
+        <p><strong>Years:</strong> 1991-94</p>
+        <p><strong>Record:</strong> 286-277 (.508)</p>
+        <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/bob-boone.jpeg" alt="Bob Boone">
+        <h3>Bob Boone</h3>
+        <p><strong>Years:</strong> 1995-97</p>
+        <p><strong>Record:</strong> 181-206 (.468)</p>
+        <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/tony-muser.jpeg" alt="Tony Muser">
+        <h3>Tony Muser</h3>
+        <p><strong>Years:</strong> 1997-2002</p>
+        <p><strong>Record:</strong> 317-431 (.424)</p>
+        <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/john-mizerock.jpeg" alt="John Mizerock">
+        <h3>John Mizerock</h3>
+        <p><strong>Years:</strong> 2002</p>
+        <p><strong>Record:</strong> 5-8 (.385)</p>
+        <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/tony-pena.jpeg" alt="Tony Peña">
+        <h3>Tony Peña</h3>
+        <p><strong>Years:</strong> 2002-05</p>
+        <p><strong>Record:</strong> 198-285 (.410)</p>
+        <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/buddy-bell.jpeg" alt="Buddy Bell">
+        <h3>Buddy Bell</h3>
+        <p><strong>Years:</strong> 2005-07</p>
+        <p><strong>Record:</strong> 174-262 (.399)</p>
+        <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/trey-hillman.jpeg" alt="Trey Hillman">
+        <h3>Trey Hillman</h3>
+        <p><strong>Years:</strong> 2008-10</p>
+        <p><strong>Record:</strong> 152-207 (.423)</p>
+        <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/ned-yost.jpeg" alt="Ned Yost">
+        <h3>Ned Yost</h3>
+        <p><strong>Years:</strong> 2010-19</p>
+        <p><strong>Record:</strong> 687-736 (.483)</p>
+        <p><strong>Playoffs:</strong> 2014(Won AL), 2015(Won WS)</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/mike-matheny.jpeg" alt="Mike Matheny">
+        <h3>Mike Matheny</h3>
+        <p><strong>Years:</strong> 2020-22</p>
+        <p><strong>Record:</strong> 165-219 (.430)</p>
+        <p><strong>Playoffs:</strong> —</p>
+        </div>
+
+        <div class="manager-card">
+        <img src="./Manager-Images/matt-quatraro.jpeg" alt="Matt Quatraro">
+        <h3>Matt Quatraro</h3>
+        <p><strong>Years:</strong> 2023-Present</p>
+        <p><strong>Record:</strong> 224-262 (.461)</p>
+        <p><strong>Playoffs:</strong> 2024</p>
+        </div>
+
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+
+    document.addEventListener('click', function(event) {
+      const menu = document.getElementById('menu');
+      const icon = document.querySelector('.menu-icon');
+      if (!menu.contains(event.target) && !icon.contains(event.target)) {
+        menu.style.display = 'none';
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -13,10 +13,67 @@
             padding: 0;
         }
 
-        h1 {
-            text-align: center;
-            color: #003B5C;
-            font-size: 32px;
+        header {
+            background-color: #003B5C;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hamburger menu icon */
+        .menu-icon {
+            display: none;
+            font-size: 28px;
+            cursor: pointer;
+        }
+
+        /* Mobile menu */
+        .mobile-menu {
+            display: none;
+            flex-direction: column;
+            background-color: #003B5C;
+            position: absolute;
+            top: 60px;
+            right: 0;
+            width: 200px;
+            border-radius: 0 0 8px 8px;
+            overflow: hidden;
+        }
+
+        .mobile-menu a {
+            padding: 10px;
+            border-top: 1px solid #01579B;
+        }
+
+        .mobile-menu a:hover {
+            background-color: #01579B;
+        }
+
+        /* Show mobile menu */
+        .mobile-menu.show {
+            display: flex;
         }
 
         .container {
@@ -75,6 +132,14 @@
         }
 
         @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+
+            .menu-icon {
+                display: block;
+            }
+
             .filters {
                 flex-direction: column;
                 align-items: stretch;
@@ -98,8 +163,20 @@
 </head>
 <body>
 
-    <div class="container">
+    <header>
         <h1>Every Royal Ever</h1>
+        <span class="menu-icon" id="menuIcon">☰</span>
+        <nav>
+            <a href="home-page.html">Players</a>
+            <a href="manager.html">Managers</a>
+        </nav>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="home-page.html">Players</a>
+            <a href="manager.html">Managers</a>
+        </div>
+    </header>
+
+    <div class="container">
         <p>Welcome to a list of every player who has played for the Kansas City Royals since their inception in 1969.</p>
 
         <!-- Filters Section -->
@@ -109,13 +186,8 @@
                 <div id="playerCount">Players Listed: 0</div>
             </div>
             <div>
-                <select id="startYear">
-                    <!-- Year options populated in JS -->
-                </select>
-
-                <select id="endYear">
-                    <!-- Year options populated in JS -->
-                </select>
+                <select id="startYear"></select>
+                <select id="endYear"></select>
             </div>
             
             <select id="positionFilter">
@@ -149,7 +221,15 @@
         </ul>
     </div>
 
-<script type="module" src="players.js"></script>
+    <script type="module" src="players.js"></script>
+    <script>
+        // Toggle mobile menu
+        const menuIcon = document.getElementById("menuIcon");
+        const mobileMenu = document.getElementById("mobileMenu");
+
+        menuIcon.addEventListener("click", () => {
+            mobileMenu.classList.toggle("show");
+        });
+    </script>
 </body>
 </html>
-

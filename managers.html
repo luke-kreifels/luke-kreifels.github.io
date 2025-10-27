@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kansas City Royals Managers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E3F2FD;
+            color: #003B5C;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003B5C;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .menu-icon {
+            display: none;
+            font-size: 28px;
+            cursor: pointer;
+        }
+
+        .mobile-menu {
+            display: none;
+            flex-direction: column;
+            background-color: #003B5C;
+            position: absolute;
+            top: 60px;
+            right: 0;
+            width: 200px;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .mobile-menu a {
+            padding: 10px;
+            border-top: 1px solid #01579B;
+        }
+
+        .mobile-menu a:hover {
+            background-color: #01579B;
+        }
+
+        .mobile-menu.show {
+            display: flex;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #BBDEFB;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        li:hover {
+            background-color: #90CAF9;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+
+            .menu-icon {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Royals Managers</h1>
+        <span class="menu-icon" id="menuIcon">☰</span>
+        <nav>
+            <a href="home-page.html">Players</a>
+            <a href="manager.html">Managers</a>
+        </nav>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="home-page.html">Players</a>
+            <a href="manager.html">Managers</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <p>Here is a list of every manager in Kansas City Royals history:</p>
+
+        <ul>
+            <li>Joe Gordon (1969)</li>
+            <li>Charlie Metro (1970–1971)</li>
+            <li>Bob Lemon (1971–1972)</li>
+            <li>Jack McKeon (1973–1975)</li>
+            <li>Whitey Herzog (1975–1979)</li>
+            <li>Jim Frey (1980–1981)</li>
+            <li>Dick Howser (1981–1986)</li>
+            <li>Mike Ferraro (1986)</li>
+            <li>Billy Gardner (1987)</li>
+            <li>John Wathan (1987–1991)</li>
+            <li>Hal McRae (1991–1994)</li>
+            <li>Bob Boone (1995–1997)</li>
+            <li>Tony Muser (1997–2002)</li>
+            <li>Tony Peña (2002–2005)</li>
+            <li>Buddy Bell (2005–2007)</li>
+            <li>Trey Hillman (2008–2010)</li>
+            <li>Ned Yost (2010–2019)</li>
+            <li>Mike Matheny (2020–2022)</li>
+            <li>Matt Quatraro (2023–present)</li>
+        </ul>
+    </div>
+
+    <script>
+        const menuIcon = document.getElementById("menuIcon");
+        const mobileMenu = document.getElementById("mobileMenu");
+
+        menuIcon.addEventListener("click", () => {
+            mobileMenu.classList.toggle("show");
+        });
+    </script>
+</body>
+</html>

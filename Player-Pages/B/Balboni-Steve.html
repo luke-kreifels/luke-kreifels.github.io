@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E3F2FD;
+            color: #003B5C;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+            margin: 0 0px;
+        }
+
+        .back-button {
+            padding: 10px 20px;
+            background-color: #003B5C;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .back-button:hover {
+            background-color: #01579B;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .profile-content {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .player-image {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .info-section {
+            text-align: left;
+            padding: 15px;
+            background-color: #BBDEFB;
+            border-radius: 5px;
+            flex-grow: 1;
+        }
+
+        .description {
+            text-align: left;
+            margin-top: 15px;
+            padding: 15px;
+            background-color: #90CAF9;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .stats,
+        .awards {
+            margin-top: 10px;
+        }
+
+        .stats h3,
+        .awards h3 {
+            margin-top: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <button class="back-button" onclick="goBack()">Back to Home</button>
+        <h1 id="playerName">Steve Balboni</h1>
+
+        <div class="profile-content">
+            <img id="playerImage" class="player-image" src="../../Player-Images/B/Balboni-Steve.jpg" alt="Player Image">
+
+            <div class="info-section">
+                <h2>Basic Information</h2>
+                <p><strong>Position:</strong> <span id="playerPosition">First Base and Designated Hitter</span></p>
+                <p><strong>Year(s) on Team:</strong> <span id="playerYears">1984-88</span></p>
+
+                <div class="stats">
+                    <h3>Stats <a href="https://www.baseball-reference.com/players/b/balbost01.shtml" target="_blank" style="color: #003B5C; text-decoration: none; text-decoration: underline;">(Full Stats)</a></h3>
+                    <ul>
+                        <li>Games Played: <span id="stats1">566</span></li>
+                        <li>Home Runs: <span id="stats2">119</span></li>
+                        <li>RBIs: <span id="stats3">318</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="description">
+            <h2>Career with the Royals</h2>
+            <p></p>
+
+            <p></p>
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "../../home_page.html";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,66 +1,68 @@
 // Player Array
+//Potential Tags: 5 years with KC, AS, AS with royals, decades played in
+
 const player_array = [
     //A
-    { firstName: "Paul", lastName: "Abbott", positions: ["SP"], years: [2003], page: "/Player-Pages/A/Abbott-Paul.html" },
-    { firstName: "Brent", lastName: "Abernathy", positions: ["2B"], years: [2003], page: "/Player-Pages/A/Abernathy-Brent.html" },
-    { firstName: "Ted", lastName: "Abernathy", positions: ["RP"], years: [1970, 1971, 1972], page: "/Player-Pages/A/Abernathy-Ted.html" },
-    { firstName: "Albert", lastName: "Abreu", positions: ["RP"], years: [2022], page: "/Player-Pages/A/Abreu-Albert.html" },
-    { firstName: "Tony", lastName: "Abreu", positions: ["2B", "3B"], years: [2012], page: "/Player-Pages/A/Abreu-Tony.html" },
-    { firstName: "Jerry", lastName: "Adair", positions: ["2B"], years: [1969, 1970], page: "/Player-Pages/A/Adair-Jerry.html" },
-    { firstName: "Jason", lastName: "Adam", positions: ["RP"], years: [2018], page: "/Player-Pages/A/Adam-Jason.html" },
-    { firstName: "Chance", lastName: "Adams", positions: ["RP"], years: [2020], page: "/Player-Pages/A/Adams-Chance.html" },
-    { firstName: "Lane", lastName: "Adams", positions: ["LF", "CF"], years: [2014], page: "/Player-Pages/A/Adams-Lane.html" },
-    { firstName: "Nathan", lastName: "Adcock", positions: ["RP"], years: [2011, 2012], page: "/Player-Pages/A/Adcock-Nathan.html" },
-    { firstName: "Jeremy", lastName: "Affeldt", positions: ["RP"], years: [2002, 2003, 2004, 2005, 2006], page: "/Player-Pages/A/Affeldt-Jeremy.html" },
-    { firstName: "Willie", lastName: "Aikens", positions: ["1B"], years: [1980, 1981, 1982, 1983], page: "/Player-Pages/A/Aikens-Willie.html" },
-    { firstName: "Hanser", lastName: "Alberto", positions: ["2B"], years: [2021], page: "/Player-Pages/A/Alberto-Hanser.html" },
-    { firstName: "Al", lastName: "Alburquerque", positions: ["RP"], years: [2017], page: "/Player-Pages/A/Alburquerque-Al.html" },
-    { firstName: "Luis", lastName: "Alcaraz", positions: ["2B"], years: [1969, 1970], page: "/Player-Pages/A/Alcaraz-Luis.html" },
-    { firstName: "CJ", lastName: "Alexander", positions: ["3B"], years: [2024], page: "/Player-Pages/A/Alexander-CJ.html"  },
-    { firstName: "Scott", lastName: "Alexander", positions: ["RP"], years: [2015, 2016, 2017], page: "/Player-Pages/A/Alexander-Scott.html" },
-    { firstName: "Luis", lastName: "Alicea", positions: ["2B", "DH"], years: [2001, 2002], page: "/Player-Pages/A/Alicea-Luis.html" }, //Need Bio
-    { firstName: "Jermaine", lastName: "Allensworth", positions: ["CF"], years: [1998], page: "/Player-Pages/A/Allensworth-Jermaine.html" }, //Need Bio/new pic
-    { firstName: "Abraham", lastName: "Almonte", positions: ["CF"], years: [2018], page: "/Player-Pages/A/Almonte-Abraham.html" },  //Need Bio
-    { firstName: "Miguel", lastName: "Almonte", positions: ["RP"], years: [2015, 2017], page: "/Player-Pages/A/Almonte-Miguel.html" }, // Need Bio
-    { firstName: "Dan", lastName: "Altavilla", positions: ["RP"], years: [2024], page: "/Player-Pages/A/Altavilla-Dan.html"  }, // Need Bio
-    { firstName: "Chip", lastName: "Ambres", positions: ["LF", "CF"], years: [2005], page: "/Player-Pages/A/Ambres-Chip.html" }, // Need Bio
-    { firstName: "Brian", lastName: "Anderson", positions: ["SP"], years: [2003, 2004, 2005], page: "/Player-Pages/A/Anderson-Brian.html"  }, // Need Bio
-    { firstName: "Josh", lastName: "Anderson", positions: ["CF"], years: [2009], page: "/Player-Pages/A/Anderson-Josh.html"  }, //Need Bio
-    { firstName: "Nick", lastName: "Anderson", positions: ["RP"], years: [2024], page: "/Player-Pages/A/Anderson-Nick.html"  }, //Need Bio
-    { firstName: "Rick", lastName: "Anderson", positions: ["SP", "RP"], years: [1987, 1988], page: "/Player-Pages/A/Anderson-Rick.html" }, //Need Bio
-    { firstName: "Scott", lastName: "Anderson", positions: ["SP"], years: [1995], page: "/Player-Pages/A/Anderson-Scott.html" }, //Need Bio / new pic
-    { firstName: "Steve", lastName: "Andrade", positions: ["RP"], years: [2006], page: "/Player-Pages/A/Andrade-Steve.html" }, //Need Bio
-    { firstName: "Norm", lastName: "Angelini", positions: ["RP"], years: [1972, 1973], page: "/Player-Pages/A/Angelini-Norm.html" }, //Need Bio
-    { firstName: "Rick", lastName: "Ankiel", positions: ["CF"], years: [2010], page: "/Player-Pages/A/Ankiel-Rick.html"  }, //Need Bio
-    { firstName: "Nori", lastName: "Aoki", positions: ["RF"], years: [2014], page: "/Player-Pages/A/Aoki-Nori.html" }, //Need Bio
-    { firstName: "Kevin", lastName: "Appier", positions: ["SP"], years: [1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2003, 2004], page: "/Player-Pages/A/Appier-Kevin.html" }, //Need Bio
-    { firstName: "Luis", lastName: "Aquino", positions: ["SP", "RP"], years: [1988, 1989, 1990, 1991, 1992], page: "/Player-Pages/A/Aquino-Luis.html"  }, //Need Bio
-    { firstName: "Mike", lastName: "Armstrong", positions: ["RP"], years: [1982, 1983], page: "/Player-Pages/A/Armstrong-Mike.html" }, //Need Bio
-    { firstName: "Humberto", lastName: "Arteaga", positions: ["SS"], years: [2019], page: "/Player-Pages/A/Arteaga-Humberto.html" }, //Need Bio
-    { firstName: "Miguel", lastName: "Asencio", positions: ["SP"], years: [2002, 2003], page: "/Player-Pages/A/Asencio-Miguel.html" }, //Need Bio
-    { firstName: "Tucker", lastName: "Ashford", positions: ["3B"], years: [1984], page: "/Player-Pages/A/Ashford-Tucker.html" }, //Need Bio / New Pic
-    { firstName: "Jeff", lastName: "Austin", positions: ["RP"], years: [2001, 2002], page: "/Player-Pages/A/Austin-Jeff.html" }, //Need Bio
-    { firstName: "Luinder", lastName: "Avila", positions: ["RP"], years: [2025] },
-    { firstName: "Mike", lastName: "Aviles", positions: ["SS"], years: [2008, 2009, 2010, 2011], page: "/Player-Pages/A/Aviles-Mike.html" }, //Need Bio
+    { firstName: "Paul", lastName: "Abbott", positions: ["SP"], years: [2003], page: "/Player-Pages/A/Abbott-Paul.html", image: "/Player-Images/A/Abbott-Paul.jpg", bref: "/bref-images/A/Abbott-Paul.png" },
+    { firstName: "Brent", lastName: "Abernathy", positions: ["2B"], years: [2003], page: "/Player-Pages/A/Abernathy-Brent.html", image: "/Player-Images/A/Abernathy-Brent.jpg", bref: "/bref-images/A/Abernathy-Brent.png" },
+    { firstName: "Ted", lastName: "Abernathy", positions: ["RP"], years: [1970, 1971, 1972], page: "/Player-Pages/A/Abernathy-Ted.html", image: "/Player-Images/A/Abernathy-Ted.jpg", bref: "/bref-images/A/Abernathy-Ted.png" },
+    { firstName: "Albert", lastName: "Abreu", positions: ["RP"], years: [2022], page: "/Player-Pages/A/Abreu-Albert.html", image: "/Player-Images/A/Abreu-Albert.jpg", bref: "/bref-images/A/Abreu-Albert.png" },
+    { firstName: "Tony", lastName: "Abreu", positions: ["2B", "3B"], years: [2012], page: "/Player-Pages/A/Abreu-Tony.html", image: "/Player-Images/A/Abreu-Tony.jpg", bref: "/bref-images/A/Abreu-Tony.png" },
+    { firstName: "Jerry", lastName: "Adair", positions: ["2B"], years: [1969, 1970], page: "/Player-Pages/A/Adair-Jerry.html", image: "/Player-Images/A/Adair-Jerry.jpg", bref: "/bref-images/A/Adair-Jerry.png" },
+    { firstName: "Jason", lastName: "Adam", positions: ["RP"], years: [2018], page: "/Player-Pages/A/Adam-Jason.html", image: "/Player-Images/A/Adam-Jason.jpeg", bref: "/bref-images/A/Adam-Jason.png" },
+    { firstName: "Chance", lastName: "Adams", positions: ["RP"], years: [2020], page: "/Player-Pages/A/Adams-Chance.html", image: "/Player-Images/A/Adams-Chance.jpeg", bref: "/bref-images/A/Adams-Chance.png" },
+    { firstName: "Lane", lastName: "Adams", positions: ["LF", "CF"], years: [2014], page: "/Player-Pages/A/Adams-Lane.html", image: "/Player-Images/A/Adams-Lane.jpeg", bref: "/bref-images/A/Adams-Lane.png" },
+    { firstName: "Nathan", lastName: "Adcock", positions: ["RP"], years: [2011, 2012], page: "/Player-Pages/A/Adcock-Nathan.html", image: "/Player-Images/A/Adcock-Nathan.jpeg", bref: "/bref-images/A/Adcock-Nathan.png" },
+    { firstName: "Jeremy", lastName: "Affeldt", positions: ["RP"], years: [2002, 2003, 2004, 2005, 2006], page: "/Player-Pages/A/Affeldt-Jeremy.html", image: "/Player-Images/A/Affeldt-Jeremy.jpg", bref: "/bref-images/A/Affeldt-Jeremy.png" },
+    { firstName: "Willie", lastName: "Aikens", positions: ["1B"], years: [1980, 1981, 1982, 1983], page: "/Player-Pages/A/Aikens-Willie.html", image: "/Player-Images/A/Aikens-Willie.jpg", bref: "/bref-images/A/Aikens-Willie.png" },
+    { firstName: "Hanser", lastName: "Alberto", positions: ["2B"], years: [2021], page: "/Player-Pages/A/Alberto-Hanser.html", image: "/Player-Images/A/Alberto-Hanser.jpeg", bref: "/bref-images/A/Alberto-Hanser.png" },
+    { firstName: "Al", lastName: "Alburquerque", positions: ["RP"], years: [2017], page: "/Player-Pages/A/Alburquerque-Al.html", image: "/Player-Images/A/Alburquerque-Al.jpeg", bref: "/bref-images/A/Alburquerque-Al.png" },
+    { firstName: "Luis", lastName: "Alcaraz", positions: ["2B"], years: [1969, 1970], page: "/Player-Pages/A/Alcaraz-Luis.html", image: "/Player-Images/A/Alcaraz-Luis.jpg", bref: "/bref-images/A/Alcaraz-Luis.png" },
+    { firstName: "CJ", lastName: "Alexander", positions: ["3B"], years: [2024], page: "/Player-Pages/A/Alexander-CJ.html", image: "/Player-Images/A/Alexander-CJ.jpg", bref: "/bref-images/A/Alexander-CJ.png" },
+    { firstName: "Scott", lastName: "Alexander", positions: ["RP"], years: [2015, 2016, 2017], page: "/Player-Pages/A/Alexander-Scott.html", image: "/Player-Images/A/Alexander-Scott.jpg", bref: "/bref-images/A/Alexander-Scott.png" },
+    { firstName: "Luis", lastName: "Alicea", positions: ["2B", "DH"], years: [2001, 2002], page: "/Player-Pages/A/Alicea-Luis.html", image: "/Player-Images/A/Alicea-Luis.jpg", bref: "/bref-images/A/Alicea-Luis.png" }, //Needs Bio from this point down
+    { firstName: "Jermaine", lastName: "Allensworth", positions: ["CF"], years: [1998], page: "/Player-Pages/A/Allensworth-Jermaine.html", image: "/Player-Images/A/Allensworth-Jermaine.jpg", bref: "/bref-images/A/Allensworth-Jermaine.png" },
+    { firstName: "Abraham", lastName: "Almonte", positions: ["CF"], years: [2018], page: "/Player-Pages/A/Almonte-Abraham.html", image: "/Player-Images/A/Almonte-Abraham.jpeg", bref: "/bref-images/A/Almonte-Abraham.png" },
+    { firstName: "Miguel", lastName: "Almonte", positions: ["RP"], years: [2015, 2017], page: "/Player-Pages/A/Almonte-Miguel.html", image: "/Player-Images/A/Almonte-Miguel.jpg", bref: "/bref-images/A/Almonte-Miguel.png" },
+    { firstName: "Dan", lastName: "Altavilla", positions: ["RP"], years: [2024], page: "/Player-Pages/A/Altavilla-Dan.html", image: "/Player-Images/A/Altavilla-Dan.jpg", bref: "/bref-images/A/Altavilla-Dan.png" },
+    { firstName: "Chip", lastName: "Ambres", positions: ["LF", "CF"], years: [2005], page: "/Player-Pages/A/Ambres-Chip.html", image: "/Player-Images/A/Ambres-Chip.jpg", bref: "/bref-images/A/Ambres-Chip.png" },
+    { firstName: "Brian", lastName: "Anderson", positions: ["SP"], years: [2003, 2004, 2005], page: "/Player-Pages/A/Anderson-Brian.html", image: "/Player-Images/A/Anderson-Brian.jpg", bref: "/bref-images/A/Anderson-Brian.png" },
+    { firstName: "Josh", lastName: "Anderson", positions: ["CF"], years: [2009], page: "/Player-Pages/A/Anderson-Josh.html", image: "/Player-Images/A/Anderson-Josh.jpg", bref: "/bref-images/A/Anderson-Josh.png" },
+    { firstName: "Nick", lastName: "Anderson", positions: ["RP"], years: [2024], page: "/Player-Pages/A/Anderson-Nick.html", image: "/Player-Images/A/Anderson-Nick.jpg", bref: "/bref-images/A/Anderson-Nick.png" },
+    { firstName: "Rick", lastName: "Anderson", positions: ["SP", "RP"], years: [1987, 1988], page: "/Player-Pages/A/Anderson-Rick.html", image: "/Player-Images/A/Anderson-Rick.jpg", bref: "/bref-images/A/Anderson-Rick.png" },
+    { firstName: "Scott", lastName: "Anderson", positions: ["SP"], years: [1995], page: "/Player-Pages/A/Anderson-Scott.html", image: "/Player-Images/A/Anderson-Scott.jpg", bref: "/bref-images/A/Anderson-Scott.png" },
+    { firstName: "Steve", lastName: "Andrade", positions: ["RP"], years: [2006], page: "/Player-Pages/A/Andrade-Steve.html", image: "/Player-Images/A/Andrade-Steve.jpg", bref: "/bref-images/A/Andrade-Steve.png" },
+    { firstName: "Norm", lastName: "Angelini", positions: ["RP"], years: [1972, 1973], page: "/Player-Pages/A/Angelini-Norm.html", image: "/Player-Images/A/Angelini-Norm.jpg", bref: "/bref-images/A/Angelini-Norm.png" },
+    { firstName: "Rick", lastName: "Ankiel", positions: ["CF"], years: [2010], page: "/Player-Pages/A/Ankiel-Rick.html", image: "/Player-Images/A/Ankiel-Rick.jpg", bref: "/bref-images/A/Ankiel-Rick.png" },
+    { firstName: "Nori", lastName: "Aoki", positions: ["RF"], years: [2014], page: "/Player-Pages/A/Aoki-Nori.html", image: "/Player-Images/A/Aoki-Nori.jpg", bref: "/bref-images/A/Aoki-Nori.png" },
+    { firstName: "Kevin", lastName: "Appier", positions: ["SP"], years: [1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2003, 2004], page: "/Player-Pages/A/Appier-Kevin.html", image: "/Player-Images/A/Appier-Kevin.jpg", bref: "/bref-images/A/Appier-Kevin.png" },
+    { firstName: "Luis", lastName: "Aquino", positions: ["SP", "RP"], years: [1988, 1989, 1990, 1991, 1992], page: "/Player-Pages/A/Aquino-Luis.html", image: "/Player-Images/A/Aquino-Luis.jpg", bref: "/bref-images/A/Aquino-Luis.png" },
+    { firstName: "Mike", lastName: "Armstrong", positions: ["RP"], years: [1982, 1983], page: "/Player-Pages/A/Armstrong-Mike.html", image: "/Player-Images/A/Armstrong-Mike.jpg", bref: "/bref-images/A/Armstrong-Mike.png" },
+    { firstName: "Humberto", lastName: "Arteaga", positions: ["SS"], years: [2019], page: "/Player-Pages/A/Arteaga-Humberto.html", image: "/Player-Images/A/Arteaga-Humberto.jpeg", bref: "/bref-images/A/Arteaga-Humberto.png" },
+    { firstName: "Miguel", lastName: "Asencio", positions: ["SP"], years: [2002, 2003], page: "/Player-Pages/A/Asencio-Miguel.html", image: "/Player-Images/A/Asencio-Miguel.jpg", bref: "/bref-images/A/Asencio-Miguel.png" },
+    { firstName: "Tucker", lastName: "Ashford", positions: ["3B"], years: [1984], page: "/Player-Pages/A/Ashford-Tucker.html", image: "/Player-Images/A/Ashford-Tucker.jpg", bref: "/bref-images/A/Ashford-Tucker.png" },
+    { firstName: "Jeff", lastName: "Austin", positions: ["RP"], years: [2001, 2002], page: "/Player-Pages/A/Austin-Jeff.html", image: "/Player-Images/A/Austin-Jeff.jpg", bref: "/bref-images/A/Austin-Jeff.png" },
+    { firstName: "Luinder", lastName: "Avila", positions: ["RP"], years: [2025], page: "/Player-Pages/A/Avila-Luinder.html", image: "/Player-Images/A/Avila-Luinder.jpg", bref: "/bref-images/A/Avila-Luinder.png" },
+    { firstName: "Mike", lastName: "Aviles", positions: ["SS"], years: [2008, 2009, 2010, 2011], page: "/Player-Pages/A/Aviles-Mike.html", image: "/Player-Images/A/Aviles-Mike.jpg", bref: "/bref-images/A/Aviles-Mike.png" },
 
     // B
-    { firstName: "Cory", lastName: "Bailey", positions: ["RP"], years: [2001, 2002], page: "/Player-Pages/B/Bailey-Cory.html" }, //Need Bio
-    { firstName: "Homer", lastName: "Bailey", positions: ["SP"], years: [2019], page: "/Player-Pages/B/Bailey-Homer.html" }, //Need Bio
-    { firstName: "Paul", lastName: "Bako", positions: ["C"], years: [2006], page: "/Player-Pages/B/Bako-Paul.html" }, //Need Bio
-    { firstName: "Steve", lastName: "Balboni", positions: ["1B", "DH"], years: [1984, 1985, 1986, 1987, 1988] },
-    { firstName: "John", lastName: "Bale", positions: ["RP"], years: [2007, 2008, 2009] },
-    { firstName: "Jay", lastName: "Baller", positions: ["RP"], years: [1990] },
-    { firstName: "Scott", lastName: "Bankhead", positions: ["SP"], years: [1986] },
-    { firstName: "Brian", lastName: "Bannister", positions: ["SP"], years: [2007, 2008, 2009, 2010] },
-    { firstName: "Floyd", lastName: "Bannister", positions: ["SP"], years: [1988, 1989] },
-    { firstName: "Brian", lastName: "Barber", positions: ["SP"], years: [1998, 1999] },
-    { firstName: "Scott", lastName: "Barlow", positions: ["RP"], years: [2018, 2019, 2020, 2021, 2022, 2023] },
-    { firstName: "Jacob", lastName: "Barnes", positions: ["RP"], years: [2019] },
-    { firstName: "German", lastName: "Barranca", positions: ["2B", "3B"], years: [1979, 1980] },
-    { firstName: "Randy", lastName: "Bass", positions: ["1B"], years: [1978] },
-    { firstName: "Miguel", lastName: "Batista", positions: ["SP"], years: [2000] },
+    { firstName: "Cory", lastName: "Bailey", positions: ["RP"], years: [2001, 2002], page: "/Player-Pages/B/Bailey-Cory.html", image: "/Player-Images/B/Bailey-Cory.jpg", bref:"/bref-images/B/Bailey-Cory.png" }, //Need Bio
+    { firstName: "Homer", lastName: "Bailey", positions: ["SP"], years: [2019], page: "/Player-Pages/B/Bailey-Homer.html", image: "/Player-Images/B/Bailey-Homer.jpeg", bref: "/bref-images/B/Bailey-Homer.png" }, //Need Bio
+    { firstName: "Paul", lastName: "Bako", positions: ["C"], years: [2006], page: "/Player-Pages/B/Bako-Paul.html", image: "/Player-Images/B/Bako-Paul.jpg", bref: "/bref-images/B/Bako-Paul.png" }, //Need Bio
+    { firstName: "Steve", lastName: "Balboni", positions: ["1B", "DH"], years: [1984, 1985, 1986, 1987, 1988], page: "/Player-Pages/B/Balboni-Steve.html", image: "/Player-Images/B/Balboni-Steve.jpg", bref: "/bref-images/B/Balboni-Steve.png" },
+    { firstName: "John", lastName: "Bale", positions: ["RP"], years: [2007, 2008, 2009], page: "/Player-Pages/B/Bale-John.html", image: "/Player-Images/B/Bale-John.jpg", bref: "/bref-images/B/Bale-John.png" },
+    { firstName: "Jay", lastName: "Baller", positions: ["RP"], years: [1990], page: "/Player-Pages/B/Baller-Jay.html", image: "/Player-Images/B/Baller-Jay.jpg", bref: "/bref-images/B/Baller-Jay.png" },
+    { firstName: "Scott", lastName: "Bankhead", positions: ["SP"], years: [1986], page: "/Player-Pages/B/Bankhead-Scott.html", image: "/Player-Images/B/Bankhead-Scott.jpg", bref: "/bref-images/B/Bankhead-Scott.png" },
+    { firstName: "Brian", lastName: "Bannister", positions: ["SP"], years: [2007, 2008, 2009, 2010], page: "/Player-Pages/B/Bannister-Brian.html", image: "/Player-Images/B/Bannister-Brian.jpg", bref: "/bref-images/B/Bannister-Brian.png" },
+    { firstName: "Floyd", lastName: "Bannister", positions: ["SP"], years: [1988, 1989], page: "/Player-Pages/B/Bannister-Floyd.html", image: "/Player-Images/B/Bannister-Floyd.jpg", bref: "/bref-images/B/Bannister-Floyd.png" },
+    { firstName: "Brian", lastName: "Barber", positions: ["SP"], years: [1998, 1999], page: "/Player-Pages/B/Barber-Brian.html", image: "/Player-Images/B/Barber-Brian.jpg", bref: "/bref-images/B/Barber-Brian.png" },
+    { firstName: "Scott", lastName: "Barlow", positions: ["RP"], years: [2018, 2019, 2020, 2021, 2022, 2023], page: "/Player-Pages/B/Barlow-Scott.html", image: "/Player-Images/B/Barlow-Scott.jpg", bref: "/bref-images/B/Barlow-Scott.png" },
+    { firstName: "Jacob", lastName: "Barnes", positions: ["RP"], years: [2019], page: "/Player-Pages/B/Barnes-Jacob.html", image: "/Player-Images/B/Barnes-Jacob.jpg", bref: "/bref-images/B/Barnes-Jacob.png" },
+    { firstName: "German", lastName: "Barranca", positions: ["2B", "3B"], years: [1979, 1980], page: "/Player-Pages/B/Barranca-German.html", image: "/Player-Images/B/Barranca-German.jpg", bref: "/bref-images/B/Barranca-German.png" },
+    { firstName: "Randy", lastName: "Bass", positions: ["1B"], years: [1978], page: "/Player-Pages/B/Bass-Randy.html", image: "/Player-Images/B/Bass-Randy.jpg", bref: "/bref-images/B/Bass-Randy.png" },
+    { firstName: "Miguel", lastName: "Batista", positions: ["SP"], years: [2000], page: "/Player-Pages/B/Batista-Miguel.html", image: "/Player-Images/B/Batista-Miguel.jpg", bref: "/bref-images/B/Batista-Miguel.png" },
     { firstName: "Denny", lastName: "Bautista", positions: ["SP"], years: [2004, 2005, 2006] },
-    { firstName: "José", lastName: "Bautista", positions: ["3B"], years: [2004] },
+    { firstName: "Jose", lastName: "Bautista", positions: ["3B"], years: [2004] },
     { firstName: "Jonah", lastName: "Bayliss", positions: ["RP"], years: [2005] },
     { firstName: "Matt", lastName: "Beaty", positions: ["1B"], years: [2023] },
     { firstName: "Joe", lastName: "Beckwith", positions: ["RP"], years: [1984, 1985] },
@@ -68,7 +70,7 @@ const player_array = [
     { firstName: "Stan", lastName: "Belinda", positions: ["RP"], years: [1993, 1994] },
     { firstName: "Jay", lastName: "Bell", positions: ["SS"], years: [1997] },
     { firstName: "Terry", lastName: "Bell", positions: ["C"], years: [1986] },
-    { firstName: "Carlos", lastName: "Beltrán", positions: ["CF"], years: [1998, 1999, 2000, 2001, 2002, 2003, 2004] },
+    { firstName: "Carlos", lastName: "Beltran", positions: ["CF"], years: [1998, 1999, 2000, 2001, 2002, 2003, 2004] },
     { firstName: "Juan", lastName: "Beniquez", positions: ["LF", "1B", "3B", "DH"], years: [1987] },
     { firstName: "Yamil", lastName: "Benitez", positions: ["LF", "RF"], years: [1997] },
     { firstName: "Andrew", lastName: "Benintendi", positions: ["LF"], years: [2021, 2022] },

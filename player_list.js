@@ -1,8 +1,6 @@
 // Player Array
 //Potential Tags: 3years/5 years with KC, AS, AS with royals, decades played in
 
-import { takeCoverage } from "v8";
-
 const player_array = [
     //A
     { firstName: "Paul", lastName: "Abbott", positions: ["SP"], years: [2003], tag: ["00"], page: "/Player-Pages/A/Abbott-Paul.html", image: "/Player-Images/A/Abbott-Paul.jpg", bref: "/bref-images/A/Abbott-Paul.png" },
